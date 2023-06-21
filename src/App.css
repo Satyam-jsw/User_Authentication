@@ -1,0 +1,271 @@
+/* .Signup_page {
+  margin-top: 50px;
+} */
+
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* overflow: hidden; */
+
+}
+
+
+
+.home-page {
+  background-image: url('../src/images/site-bg.jpg');
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100vw;
+  color: white;
+  display: flex;
+}
+
+.home-page-small {
+  padding-top: 200px;
+  padding-left: 30px;
+  display: flex;
+}
+
+.home-img{
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.home12{
+  width:400px;
+  height: 400px;
+  margin-top: 100px;
+}
+
+
+.contactus {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txtarea {
+  resize: none;
+}
+
+/*  PAGENOTFOUND */
+
+.container22 {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.CONT {
+  width: 100%;
+  height: 100%;
+  background-color: #2c3a47f2;
+}
+
+
+.cont {
+  padding: 12px 50px;
+  position: absolute;
+  display: inline-block;
+  background: #2c3a47;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-right: 70vh;
+  margin-top: 20vh;
+  transition: .3s linear;
+}
+
+.a {
+  background-color: rgba(70, 105, 162, 0);
+  border-radius: 8px;
+
+}
+
+.a:hover {
+  background-color: #f1f1f119;
+}
+
+/* //*******Registeration form start here */
+.row-sp {
+  grid-template-rows: 50px 1000px 50px;
+  display: flex;
+  row-gap: 10px;
+  align-content: space-between;
+}
+.reg{
+  margin-top: 50px;
+}
+
+.container-reg {
+  border: solid black 2px;
+  border-radius: 5px 10px;
+  margin-top: 50px;
+  margin-left: 40px;
+
+}
+
+.form-text {
+  /* border: 3px green solid; */
+  width: 60%;
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  background: white;
+}
+
+#name,
+#email,
+#phone,
+#cpsw,
+#psw,
+#work {
+  margin-top: 2px;
+  display: flex;
+  box-sizing: inherit;
+  border: solid grey 2px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  box-shadow: #2c3a47;
+  font-weight: 10px;
+}
+.kl {
+  margin-left: 15px;
+  margin-top: 2px;
+  padding-top: 0px;
+  width: max-content;
+ 
+}
+.kl2{
+  margin-left: 60px;
+}
+.klb{
+  margin-left: 15px;
+  margin-bottom: 4px;
+
+}
+
+.img_of_signup {
+  margin-top: 80px;
+  width: 500px;
+  height: 400px;
+}
+
+.img2,
+.img3 {
+  margin-left: 0.5%;
+
+}
+
+.img1,
+.img2,
+.img3 {
+  text-align: right;
+  height: 40vh;
+  width: 32%;
+
+}
+
+/* //**about page */
+.about-big-div{
+display:inline-flex;
+ margin-top: 100px;
+}
+
+.about_heading{
+  margin-left: 2px;
+  border: solid black 2px;
+  border-radius: 5px 6px;
+  margin-right: 2px;
+}
+#about-para{
+  font-weight: 8px;
+  font-size: medium;
+  text-justify: auto;
+}
+.about_img {
+  width:fit-content;
+  margin-right: 10px;
+  border: solid black 2px;
+  border-radius: 5px 6px;
+}
+
+ /********contact detail***********/
+
+
+/* .contactus{
+  border: solid red;
+} */
+
+/* .contact-side{
+ 
+} */
+#kio{
+  display:flex;
+
+}
+
+
+
+
+.container_page {
+  margin: 100px;
+  /* border: solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  width: 250px;
+  height: auto;
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.login-form {
+  border-width: 10px;
+}
+
+.login_btn {
+  margin-top: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.kll {
+  text-align: center;
+}
+
+
+.row_ME_inbox {
+
+  display: block;
+
+}
+
+.rst-psw {
+  margin-top: 100px;
+  margin-left: 200px;
+  display: inline-block;
+
+}
+
+.frt-psw {
+
+  margin-top: 100px;
+  margin-left: 200px;
+}
